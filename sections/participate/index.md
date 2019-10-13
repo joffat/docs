@@ -19,6 +19,7 @@ These are the minimum requirements to participate in your workshop:
 # Getting Your Player
 1. Install UABC: `npm install -g @socialgorithm/uabc`
 1. Download the player/algorithm starter.
+
 | Language   | Repo                                                                               |
 | ---------- |:----------------------------------------------------------------------------------:|
 | Java       | [ultimate-ttt-player-java](https://github.com/joffat/ultimate-ttt-player-java.git) |
