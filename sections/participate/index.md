@@ -18,8 +18,12 @@ These are the minimum requirements to participate in your workshop:
 
 # Getting Your Player
 1. Install UABC: `npm install -g @socialgorithm/uabc`
-1. Download the player/algorithm starter: `git clone git@github.com:socialgorithm/${GAME}-player`  
-e.g. `git clone git@github.com:socialgorithm/tic-tac-toe-player`
+1. Download the player/algorithm starter.
+| Language   | Repo                                                                               |
+| ---------- |:----------------------------------------------------------------------------------:|
+| Java       | [ultimate-ttt-player-java](https://github.com/joffat/ultimate-ttt-player-java.git) |
+| Python     | [ultimate-ttt-player-py](https://github.com/joffat/ultimate-ttt-player-py.git)     |
+| Javascript | [ultimate-ttt-player-js](https://github.com/joffat/ultimate-ttt-player-js.git)     |
 
 # On The Day
 
