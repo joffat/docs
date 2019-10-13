@@ -14,7 +14,7 @@ These are the minimum requirements to participate in your workshop:
 
 1. Have a **code editor**. Try [Visual Studio Code](https://code.visualstudio.com/).
 1. Install [Git](https://git-scm.com/downloads)
-1. Install [NodeJS >7](https://nodejs.org/en/download/current/)
+1. Install [NodeJS >10](https://nodejs.org/en/download/current/)
 
 # Getting Your Player
 1. Install UABC: `npm install -g @socialgorithm/uabc`
