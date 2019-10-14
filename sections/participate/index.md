@@ -12,7 +12,7 @@ You will shortly start your workshop, but we need to make sure you're prepared.
 
 These are the minimum requirements to participate in your workshop:
 
-1. Have a **code editor**. Either-
+1. Have a **code editor**.
     1.[Visual Studio Code](https://code.visualstudio.com/)
     1.[Intellij](https://www.jetbrains.com/idea/download/) **For Java**
 1. Install [Git](https://git-scm.com/downloads)
