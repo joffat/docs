@@ -13,8 +13,9 @@ You will shortly start your workshop, but we need to make sure you're prepared.
 These are the minimum requirements to participate in your workshop:
 
 1. Have a **code editor**.
+
     1.[Visual Studio Code](https://code.visualstudio.com/)
-    1.[Intellij](https://www.jetbrains.com/idea/download/) **For Java**
+    1.[Intellij](https://www.jetbrains.com/idea/download/)
 1. Install [Git](https://git-scm.com/downloads)
 1. Install [NodeJS >8](https://nodejs.org/en/download/current/)
 1. Install Additional Language Support
