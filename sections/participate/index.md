@@ -20,7 +20,7 @@ These are the minimum requirements to participate in your workshop:
 1. Install Additional Language Support
     1. Java - [Java >8](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
     1. Python - [Python >3.6](https://www.python.org/downloads/)
-    1. Javascript [Node.js >8](https://nodejs.org/en/download/current/)
+    1. Javascript [NodeJS >8](https://nodejs.org/en/download/current/)
 
 # Getting Your Player
 1. Install UABC: `npm install -g @socialgorithm/uabc`
