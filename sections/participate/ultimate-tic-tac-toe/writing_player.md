@@ -8,21 +8,55 @@ A simple start would be to have a program that does just that:
 
 ```js
 // pseudo-code example of the most basic methods
-addOpponentMove(board, move) {
-    // store his move
-}
+    /**
+     * New Game.
+     * Prepare The Board.
+     */
+    public void init();
 
-addMove(board, move) {
-    // store our move
-}
+    /**
+     * Get Move.
+     * You Are Starting First.
+     * Pick A Board And A Move.
+     *
+     * @return Your First Move
+     */
+    public Move getMove();
 
-getMove() {
-    // calculate a new move
-    return {
-        board: ...,
-        move: ...
-    };
-}
+    /**
+     * Opponent Move.
+     * Your Opponent Made A Move.
+     * Respond With A Move Where {@return Move}{@link model.Move#board} Matches {@param opponentsMove}.{@link model.Move#board}
+     *
+     * @param opponentsMove the opponents move
+     * @return Your Move In Response
+     */
+    public Move opponentMove(Move opponentsMove);
+
+    /**
+     * Game Over.
+     * The Game Is Over. You Might Still With The Match.
+     * Another Game Will Start Soon.
+     *
+     * @param result (WIN, LOSE, TIE)
+     * @param previousMove - Null unless you were not last move
+     */
+    public void gameOver(Result result, Move previousMove);
+
+    /**
+     * Match Over.
+     * The Match Is Over.
+     * You May Get To Play Again. But For Now, You Have No Opponent.
+     *
+     * @param result (WIN, LOSE, TIE)
+     */
+    public void matchOver(Result result);
+    
+    /**
+     * Timed Out.
+     * The Match Is Over.
+     */
+    public void timeout();
 ```
 
 The problem with this is that we need to store and know the **game state** - have a board, calculate whether a player has won, check if a move is valid...
