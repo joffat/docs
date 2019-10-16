@@ -50,9 +50,7 @@ This is your lobby. You will shortly use the command in the "Connect Your Player
 Find Out How To Connect On The Player Docs
 
 Javascript - https://github.com/joffat/ultimate-ttt-player-js
-
 Java - https://github.com/joffat/ultimate-ttt-player-java
-
 Python - https://github.com/joffat/ultimate-ttt-player-py
 
 
