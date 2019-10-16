@@ -1,7 +1,3 @@
----
-showToc: true
----
-
 # Before You Arrive
 
 You will shortly start your workshop, but we need to make sure you're prepared.
