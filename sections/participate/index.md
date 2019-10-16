@@ -40,9 +40,18 @@ To create a lobby:
 1. Go to the "Tournaments" tab
 1. Click "Create Match"
     1. If disconnected, connect to https://play-uttt-tournament.herokuapp.com
-1. Click "Get Started"
+1. Select a Game - e.g Ultimate Tic Tac Toe
+1. Select a Timeout and Number of Games Per Match
+1. Select a Tournament Type - eg. Double Elimination
+
 
 This is your lobby. You will shortly use the command in the "Connect Your Player" section to test your player.
+
+Find Out How To Connect On The Player Docs
+https://github.com/joffat/ultimate-ttt-player-js
+https://github.com/joffat/ultimate-ttt-player-java
+https://github.com/joffat/ultimate-ttt-player-py
+
 
 # Continue: 
 
