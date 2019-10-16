@@ -82,3 +82,5 @@ Pick the one for your language of choice:
 * [Python](./python.md)
 * [JavaScript](./javascript.md)
 * [Other languages...](./other_languages.md)
+
+## Continue: [Analyse Your Games](analyse_games.md)
