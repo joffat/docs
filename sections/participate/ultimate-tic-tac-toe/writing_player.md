@@ -4,7 +4,7 @@ We're going to write an algorithm that can play UTTT, exciting right? :)
 
 At the most basic level, a player needs to be able to calculate a **valid move**, and receive **opponent moves**. Every time it receives a move from its opponent it will run some calculations, and return what it considers to be the optimal move.
 
-A simple start would be to have a program that does just that:
+This is the template we provide for you, all actions can be based on these events:
 
 ```js
 // pseudo-code example of the most basic methods
