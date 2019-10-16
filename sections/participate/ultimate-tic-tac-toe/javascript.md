@@ -23,10 +23,8 @@ npm install
 
 The `player.js` file does the stdin/stdout work, and you shouldn't edit it. It requires the file `src/defensive/logic.js`, which is the one you could start with.
 
-Inside the `src` folder you'll find three implementations:
+Inside the `src` folder you'll find these implementations:
 
-* `defensive/logic.js` - is a good start, as it already provides some minimal logic to compete.
-* `firstAvailable/logic.js` - selects the first available valid move, whatever that is.
 * `random/logic.js` - selects any valid move at random.
 
 It's interesting to look at each of these to see how they implement the logic and learn about it before starting to make changes.
