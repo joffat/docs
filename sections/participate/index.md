@@ -47,6 +47,7 @@ To create a lobby:
 
 This is your lobby. You will shortly use the command in the "Connect Your Player" section to test your player.
 
+## Connect To The Lobby
 Find Out How To Connect On The Player Docs
 
 | Language   | Repo                                                                               |
