@@ -37,6 +37,7 @@ You will first need to create a test lobby on our tournament server. You will us
 To create a lobby:
 
 1. Go to https://play-uttt.herokuapp.com
+1. Go to the "Tournaments" tab
 1. Click "Create Match"
     1. If disconnected, connect to https://play-uttt-tournament.herokuapp.com
 1. Click "Get Started"
