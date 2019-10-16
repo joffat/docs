@@ -11,7 +11,7 @@ Please make sure that you have [tested your client locally](analyse_games.md) an
 Similarly to local testing, you'll be using the `uabc` client to connect. Simply run the following command:
 
 ```
-$ uabc --host {server host} --token {your token} -f "node path/to/player.js"
+$ uabc --host {server host} --token {your token} -f "command path/to/player"
 ```
 
 * The `host` will be given to you on the competition day.
