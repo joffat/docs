@@ -49,9 +49,11 @@ This is your lobby. You will shortly use the command in the "Connect Your Player
 
 Find Out How To Connect On The Player Docs
 
-Javascript - https://github.com/joffat/ultimate-ttt-player-js
-Java - https://github.com/joffat/ultimate-ttt-player-java
-Python - https://github.com/joffat/ultimate-ttt-player-py
+| Language   | Repo                                                                               |
+| ---------- |:----------------------------------------------------------------------------------:|
+| Java       | [ultimate-ttt-player-java](https://github.com/joffat/ultimate-ttt-player-java.git) |
+| Python     | [ultimate-ttt-player-py](https://github.com/joffat/ultimate-ttt-player-py.git)     |
+| Javascript | [ultimate-ttt-player-js](https://github.com/joffat/ultimate-ttt-player-js.git)     |
 
 
 # Continue: 
