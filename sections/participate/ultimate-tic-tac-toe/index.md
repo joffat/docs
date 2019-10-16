@@ -1,7 +1,3 @@
----
-showToc: true
----
-
 # About
 
 ![Ultimate Tic Tac Toe board, with an animation for some rounds](/assets/uttt.gif)
@@ -21,6 +17,15 @@ You'll be playing on the big board, but in order to *"win"* each cell, you have 
 1. You must play on the small board that corresponds to the cell the other player played at.
 1. If you are *sent* to a board that has been won already, you must play on any other board. *(Some people play with variations of this rule, but we believe this makes for the most interesting algorithms)*
 1. To win the game you must have 3 in a row in the big board in any direction.
+
+## How To Lose Quickly
+
+1. Out of bounds, you trying to place a move outside the 3 by 3 square.*(Both Board And SubBoard)*
+1. SubBoard already finished, you are trying to place in the board where a win/lose/tie has already been decided.
+1. Cell already filled, you are trying to place in a cell where a player has already placed.
+1. Out of turn, you sent a message without being asked.
+1. Sending Gibberish, you sent something we don't understand.
+1. Doing Nothing, you will timeout.
 
 ## Example
 
