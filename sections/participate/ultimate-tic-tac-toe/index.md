@@ -20,12 +20,12 @@ You'll be playing on the big board, but in order to *"win"* each cell, you have 
 
 ## How To Lose Quickly
 
-1. Out of bounds, you trying to place a move outside the 3 by 3 square.*(Both Board And SubBoard)*
-1. SubBoard already finished, you are trying to place in the board where a win/lose/tie has already been decided.
-1. Cell already filled, you are trying to place in a cell where a player has already placed.
-1. Out of turn, you sent a message without being asked.
-1. Sending Gibberish, you sent something we don't understand.
-1. Doing Nothing, you will timeout.
+* Out of bounds, you trying to place a move outside the 3 by 3 square.*(Both Board And SubBoard)*
+* SubBoard already finished, you are trying to place in the board where a win/lose/tie has already been decided.
+* Cell already filled, you are trying to place in a cell where a player has already placed.
+* Out of turn, you sent a message without being asked.
+* Sending Gibberish, you sent something we don't understand.
+* Doing Nothing, you will timeout.
 
 ## Example
 
