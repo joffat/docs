@@ -6,10 +6,9 @@
 
 The `uabc` utility which you use to play games comes with some handy options.
 
-* `-p` puts the client in practice mode
 * `--log` enables logging to a file
 * `--verbose` enables logging to the console
-* `-f` defines the path to your executable player (for scripting languages like JavaScript or Python you may have to add `node` and `python` to the path, as seen in the example)
+* `-f` defines the path to your executable player (for scripting languages like JavaScript or Python you may have to add `java`, `node` and `python` to the path, as seen in the example)
 
 For an explanation of all the options run `uabc -h`.
 
