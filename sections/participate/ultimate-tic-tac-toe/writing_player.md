@@ -12,7 +12,9 @@ A simple start would be to have a program that does just that:
      * New Game.
      * Prepare The Board.
      */
-    public void init();
+    init(){
+        ...
+    }
 
     /**
      * Get Move.
@@ -21,7 +23,9 @@ A simple start would be to have a program that does just that:
      *
      * @return Your First Move
      */
-    public Move getMove();
+    Move getMove(){
+        ...
+    }
 
     /**
      * Opponent Move.
@@ -31,7 +35,9 @@ A simple start would be to have a program that does just that:
      * @param opponentsMove the opponents move
      * @return Your Move In Response
      */
-    public Move opponentMove(Move opponentsMove);
+    Move opponentMove(Move opponentsMove) {
+        ...
+    }
 
     /**
      * Game Over.
@@ -41,7 +47,9 @@ A simple start would be to have a program that does just that:
      * @param result (WIN, LOSE, TIE)
      * @param previousMove - Null unless you were not last move
      */
-    public void gameOver(Result result, Move previousMove);
+    gameOver(Result result, Move previousMove) {
+        ...
+    }
 
     /**
      * Match Over.
@@ -50,13 +58,17 @@ A simple start would be to have a program that does just that:
      *
      * @param result (WIN, LOSE, TIE)
      */
-    public void matchOver(Result result);
+    matchOver(Result result){
+        ...
+    }
     
     /**
      * Timed Out.
      * The Match Is Over.
      */
-    public void timeout();
+    timeout() {
+        ...
+    }
 ```
 
 The problem with this is that we need to store and know the **game state** - have a board, calculate whether a player has won, check if a move is valid...
